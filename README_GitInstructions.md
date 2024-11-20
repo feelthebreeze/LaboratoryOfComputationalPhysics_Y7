@@ -12,7 +12,7 @@ The following instructions need to be followed any time a new local repository i
 
    * Configure your username and email:
 
-   `git config --global user.name "feelthebreeze"`
+   `git config --global user.name "filippobezzi"`
 
    `git config --global user.email "filippobezzi1@gmail.com"`
 
