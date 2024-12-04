@@ -10,7 +10,7 @@ The following instructions need to be followed any time a new local repository i
 
    `cd LaboratoryOfComputationalPhysics_Y7/`
 
-   * Configure your username and email:
+   * Configure my username and email:
 
    `git config --global user.name "filippobezzi"`
 
@@ -32,7 +32,7 @@ The following instructions need to be followed any time a new local repository i
 
   * The default branch is `main`. You should now create your development branch, i.e. "lab", where you can edit and run the code. 
     
-   `git checkout -b lab`
+   `git checkout -b <BranchName>`
    
   where <BranchName> is the name of your development branch
     
@@ -48,7 +48,7 @@ The following instructions need to be followed any time a new local repository i
    
    * And then in your development branch, if any:
    
-   `git checkout lab`
+   `git checkout <BranchName>`
 
    * The idea is that your main always reflects `upstream/main`, i.e. it keeps a local copy of the reference code as 
    a starting point for your developments (i.e. solving the assigned problems). Note that in order to update your repository on 
@@ -90,5 +90,18 @@ The following instructions need to be followed any time a new local repository i
    * Set new fetch and push urls for "upstream" or "origin"  
    
    `git remote set-url origin https://github.com/USER/REPO`
+
+   * Check git hidden files:
+
+   ~cd .git --> ~ls -a
+
+### Useful Vim commands:
+
+  Exit and save when `git commit -a`
+   ~ESC --> ~:wq
+  
+
+
+
 
 
