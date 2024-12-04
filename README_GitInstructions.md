@@ -80,3 +80,15 @@ The following instructions need to be followed any time a new local repository i
    `git push origin <BranchName>`
 	 
    * When appropriate (never for this course), propagate your development also to the repo you originally forked (upstream). For that you need to go for a pull request, which is done from GitHub. 
+
+### Useful other commands
+
+   * Reset main to upstream
+
+   `git reset --hard upstream/main`
+
+   * Set new fetch and push urls for "upstream" or "origin"  
+   
+   `git remote set-url origin https://github.com/USER/REPO`
+
+
