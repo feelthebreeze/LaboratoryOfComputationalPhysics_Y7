@@ -99,9 +99,3 @@ The following instructions need to be followed any time a new local repository i
 
   Exit and save when `git commit -a`
    ~ESC --> ~:wq
-  
-
-
-
-
-
